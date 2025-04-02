@@ -1,6 +1,6 @@
 package com.it;
 
-public class For03 {
+public class p0402 {
 
 	public static void main(String[] args) {
 		for(int i = 1; i<=5; i++) {
