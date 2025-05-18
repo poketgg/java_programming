@@ -1,0 +1,63 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f8f6fb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  header {
+    background-color: #8c00ff;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.8rem;
+
+    border: none;
+  }
+
+  main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+
+  input[type="file"] {
+    margin-bottom: 1rem;
+  }
+
+  button {
+    background-color: #8c00ff;
+    color: white;
+    padding: 0.8rem 1.2rem;
+
+    display: block;
+    margin: auto;
+
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #5800a3;
+  }
+
+  .result {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f2e9ff;
+    border-left: 5px solid #6a0dad;
+    border-radius: 8px;
+  }
